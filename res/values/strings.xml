@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Insect Smasher</string>
+    <string name="app_version">1.07</string>
+    <string name="instruction">Don\'t hurt bees.</string>
+    <string name="go_to_google_play">Click here to go to google play.</string>  
+    <string name="app_url">https://play.google.com/store/apps/details?id=com.lamaryw.InsectSmasher</string>
+    <string name="entertainment_mode_string">Escaped insects won\'t cost lives.</string>
+
+</resources>

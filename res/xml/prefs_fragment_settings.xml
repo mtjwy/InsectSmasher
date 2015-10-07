@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.lamaryw.hm5_yang_wu" android:title="@string/app_name">
+
+    <PreferenceCategory 
+        android:title="Score" >
+    	<!--  
+        <Preference 
+    	    android:title="@string/app_name"
+    	    android:selectable="false"/>
+    	-->
+          
+    	<Preference 
+    	    android:title="Version"
+    	    android:summary="@string/app_version"
+    	    android:selectable="false"/>
+    	
+    	<Preference 
+    	    android:title="Rate This App"
+    	    android:summary="@string/go_to_google_play" 
+    	    android:key="key_rate_app" />
+    	
+    	<!-- 
+    	<Preference 
+    	    android:title="Instruction"
+    	    android:summary="@string/instruction"
+    	    android:selectable="false"/>
+    	 -->
+    	
+    	<CheckBoxPreference 
+    	    android:title="Load Highest Level"
+    	    android:key="prefs_load_level_enabled"
+    	    android:defaultValue="false" />
+    	
+    	<Preference 
+    	    android:title="Highest Level (competitive mode)"
+    	    android:summary=" "
+    	    android:key="prefs_highest_level"
+    	    android:selectable="false"/>
+    	
+    	
+    	<Preference 
+    	    android:title="Highest Score (competitive mode)"
+    	    android:summary=" "
+    	    android:key="prefs_highscore"
+    	    android:selectable="false"/>
+    	
+    	<CheckBoxPreference 
+    	    android:title="Play in Entertainment Mode"
+    	    android:summary="@string/entertainment_mode_string"
+    	    android:key="prefs_entertainment_mode_enabled"
+    	    android:defaultValue="false" />
+    	
+    	<Preference 
+    	    android:title="Highest Level (entertainment mode)"
+    	    android:summary=" "
+    	    android:key="prefs_highest_level_entertainment"
+    	    android:selectable="false"/>
+    	
+    	<Preference 
+    	    android:title="Highest Score (entertainment mode)"
+    	    android:summary=" "
+    	    android:key="prefs_highscore_entertainment"
+    	    android:selectable="false"/>
+    	
+    	
+    	  
+    	
+    	
+    	
+    	<!--  
+    	<Preference 
+    	    android:title="Back"
+    	    android:summary="Back to main menu." 
+    	    android:key="key_back" />
+    	    
+    	-->
+    	
+ 	</PreferenceCategory>	   
+</PreferenceScreen>
